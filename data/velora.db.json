@@ -1,0 +1,573 @@
+{
+  "users": [
+    {
+      "id": "00000000-0000-0000-0000-000000000001",
+      "email": "creator@velora.ai",
+      "name": "Studio Director",
+      "avatar_url": null,
+      "status": "active",
+      "created_at": "2026-09-27T15:56:45.339Z",
+      "updated_at": "2026-09-27T15:56:45.339Z"
+    },
+    {
+      "id": "d444bd5e-3f4e-4b05-9fd5-d0e142104230",
+      "email": "creator_1790526588501@velora.ai",
+      "name": "Elena Test",
+      "avatar_url": null,
+      "password_hash": "38cee9054b58f31cb185cfdade6138473491e5482d97868d71d46b6477fa61ea0fd004abe9d2b1ab3fd5123618d8e4fb425854957f6480b7258c5d4e94a2e572",
+      "salt": "f103d0b40a3bb4e506d660ac335682b8",
+      "status": "active",
+      "created_at": "2026-09-27T16:29:48.501Z",
+      "updated_at": "2026-09-27T16:29:48.501Z"
+    },
+    {
+      "id": "06fb35d2-a74b-47b9-bf35-ed87fddc3997",
+      "email": "creator_1790530629857@velora.ai",
+      "name": "Elena Test",
+      "avatar_url": null,
+      "password_hash": "f74d79c9d531ee1656ae446c7edec3f7c72db2581ac8116b91e6ec57ad0dddb6402ab86b6e4ecde1185535c4d154823fc9046d6c02d5fac6880cabb59cc9a78f",
+      "salt": "6091eb09e05b34262c5f5fbbf3c10306",
+      "status": "active",
+      "created_at": "2026-09-27T17:37:09.857Z",
+      "updated_at": "2026-09-27T17:37:09.857Z"
+    },
+    {
+      "id": "16d2f3a2-31c0-48bf-b33f-3f99a5e98be9",
+      "email": "creator_1790530692736@velora.ai",
+      "name": "Elena Test",
+      "avatar_url": null,
+      "password_hash": "683950a6711322fa3f4fb117ec7eb95bafd1972b35dde87735e0c490485f08e087e14eed67d0494ab630d1c2aabce8dcc5d117943b126a341632955bc0812b98",
+      "salt": "e680c60c3e3502e0f1a0826bdb5ea256",
+      "status": "active",
+      "created_at": "2026-09-27T17:38:12.736Z",
+      "updated_at": "2026-09-27T17:38:12.736Z"
+    },
+    {
+      "id": "a1fd4603-93ed-4cfe-9e8f-4bef7d53f9de",
+      "email": "creator_1790530795396@velora.ai",
+      "name": "Elena Test",
+      "avatar_url": null,
+      "password_hash": "5e7c2620135e9543ba296529c1df5da4b95da6cc754c3fc29a0a9ae6059b6a4df4bc1f1552e90a0a8cebb0952f2eb79df4fb29e06330a6be1caae9339c6c0882",
+      "salt": "0c5ff76e1539991d78aa0334c9c7f2bf",
+      "status": "active",
+      "created_at": "2026-09-27T17:39:55.396Z",
+      "updated_at": "2026-09-27T17:39:55.396Z"
+    },
+    {
+      "id": "9508a8ef-6087-4de5-89f1-f30f9cce1a16",
+      "email": "creator_1790531602943@velora.ai",
+      "name": "Elena Test",
+      "avatar_url": null,
+      "password_hash": "152b202706bbc8268669fb746d0cfcafb19584fb8150297285cfc1bcba26e909badfa4f87ccbcd1a5c585a744e89f134e88f9ec7f0047ac3b0361588825f8899",
+      "salt": "1df6c216faa6b2ad9c9a9cff782bfd5b",
+      "status": "active",
+      "created_at": "2026-09-27T17:53:22.943Z",
+      "updated_at": "2026-09-27T17:53:22.943Z"
+    },
+    {
+      "id": "1d99ceb0-5b74-418d-84a3-0016731e933c",
+      "email": "creator_1790532528998@velora.ai",
+      "name": "Elena Test",
+      "avatar_url": null,
+      "password_hash": "5d8c1d8071106362420b236e8ef5c23b6f55bf1b3e6e4b0b3ae0c607204fd7b898cef30c80b5b692f642b76fe249319e0f6c0808b4aa2b24c8f7538b5f318742",
+      "salt": "eec5280db98e6330ea938491ab54f0f8",
+      "status": "active",
+      "created_at": "2026-09-27T18:08:48.998Z",
+      "updated_at": "2026-09-27T18:08:48.998Z"
+    },
+    {
+      "id": "6a6f0e8d-b107-45bb-8cf7-2e81c75f8d18",
+      "email": "creator_1790532554080@velora.ai",
+      "name": "Elena Test",
+      "avatar_url": null,
+      "password_hash": "ab505f09bd1927daee1b88c882a3df47384416c266defdb8bbfb55b672d48c78a3684fa40378e8f530860de7f619614077b863bbacb075b994e95f41dd963b93",
+      "salt": "3d028b2d8d75a7b7085a5f94651758cc",
+      "status": "active",
+      "created_at": "2026-09-27T18:09:14.080Z",
+      "updated_at": "2026-09-27T18:09:14.080Z"
+    }
+  ],
+  "projects": [
+    {
+      "id": "11111111-1111-1111-1111-111111111111",
+      "user_id": "00000000-0000-0000-0000-000000000001",
+      "name": "Cinematic Noir Chronicles",
+      "description": "High-contrast monochrome and neon visual exploration",
+      "cover_asset_id": null,
+      "created_at": "2026-09-27T15:56:45.339Z",
+      "updated_at": "2026-09-27T15:56:45.339Z"
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222222",
+      "user_id": "00000000-0000-0000-0000-000000000001",
+      "name": "Architectural Visions",
+      "description": "Modernist concrete pavilions and foggy landscapes",
+      "cover_asset_id": null,
+      "created_at": "2026-09-27T15:56:45.339Z",
+      "updated_at": "2026-09-27T15:56:45.339Z"
+    }
+  ],
+  "assets": [
+    {
+      "user_id": "00000000-0000-0000-0000-000000000001",
+      "project_id": null,
+      "type": "VIDEO",
+      "source": "GENERATED",
+      "storage_key": "9b815a43-d686-4ed2-a4c4-aa4cff8f5db6.mp4",
+      "thumbnail_key": null,
+      "mime_type": "video/mp4",
+      "size_bytes": 149059,
+      "duration_seconds": 8,
+      "metadata": {
+        "prompt": "generate video of bathukumma festival",
+        "model": "veo-3.1-fast-generate-preview",
+        "settings": {
+          "aspect_ratio": "9:16",
+          "duration": 8,
+          "quality": "ULTRA_HD",
+          "motion_strength": 6,
+          "camera_movement": "ORBIT",
+          "style": "CINEMATIC",
+          "fps": 24
+        }
+      },
+      "id": "4107b057-d5cd-4db1-b467-c89dd1561347",
+      "created_at": "2026-09-27T17:47:19.522Z"
+    },
+    {
+      "user_id": "00000000-0000-0000-0000-000000000001",
+      "project_id": null,
+      "type": "VIDEO",
+      "source": "GENERATED",
+      "storage_key": "16439f2e-0127-470b-ae14-dda715bfd27d.mp4",
+      "thumbnail_key": null,
+      "mime_type": "video/mp4",
+      "size_bytes": 1791378,
+      "duration_seconds": 5,
+      "metadata": {
+        "prompt": "Use the uploaded image as the exact visual reference and transform it into a highly realistic cinematic video of a Bathukamma celebration taking place outside the 10000 CODERS institute in Hyderabad, Telangana, India.\n\nIMPORTANT:\nPreserve the original building architecture, the large \"1000 CODERS\" / \"10000 CODERS\" institute banner, the surrounding buildings, street environment, decorations, Bathukamma flower arrangements, people, clothing, and overall composition. Do not redesign or replace the institute. Do not change people's faces or identities. Keep the scene visually consistent with the source image.\n\nVIDEO SCENE:\nA lively traditional Bathukamma celebration is happening outside the institute. A large group of young women approximately 21–25 years old are wearing beautiful traditional Indian outfits such as colorful sarees, lehengas, bangles, earrings, jasmine flowers in their hair, and traditional accessories.\n\nThe women are naturally performing Bathukamma celebrations around the colorful flower arrangements. They slowly walk and dance in a circular formation around the Bathukamma flowers, clapping their hands rhythmically and smiling naturally. Their sarees, dupattas, jewelry, and jasmine flowers should move naturally with their body movements and the breeze.\n\nThe Bathukamma flower stacks should remain clearly visible in the center. Flowers should gently move from the breeze, while the women interact naturally with the celebration.\n\nAround them, male students, faculty members, staff, and other institute members are gathered as spectators. Some are clapping along with the rhythm, some are smiling and talking to each other, some are recording the celebration with their smartphones, and others are simply enjoying the event.\n\nThe atmosphere should feel like a genuine college/institute cultural celebration in Hyderabad rather than a staged advertisement.\n\nCAMERA:\nStart with a realistic wide establishing shot showing the entire 10000 CODERS institute building and the celebration outside it.\n\nSlowly move the camera forward toward the Bathukamma celebration using a smooth cinematic dolly-in motion.\n\nThen gently pan across the group of women dancing around the Bathukamma flowers.\n\nInclude subtle handheld camera movement, as if the video was captured by a professional event videographer.\n\nFinish with a wider shot showing the women, boys, faculty, institute members, decorations, Bathukamma flowers, and the 10000 CODERS building together.\n\nMOTION:\nRealistic human body movement.\nNatural walking.\nNatural circular dancing.\nRhythmic hand clapping.\nNatural smiling and conversations.\nRealistic saree and hair movement.\nNatural jewelry movement.\nSubtle wind movement in flowers and decorations.\nPeople occasionally looking at each other and reacting to the celebration.\nPhones being raised naturally by people recording the event.\n\nLIGHTING:\nNatural Hyderabad outdoor lighting with warm festive illumination.\nBeautiful realistic sunlight mixed with decorative festival lights.\nNatural shadows and reflections.\nAvoid artificial CGI-looking lighting.\n\nVISUAL STYLE:\nPhotorealistic.\nUltra-realistic Indian cultural event.\nDocumentary-style event cinematography.\nNatural skin texture.\nRealistic facial expressions.\nRealistic human proportions.\nRealistic fabric physics.\nRealistic crowd movement.\nHigh-detail flowers and decorations.\nCinematic depth of field.\nNatural motion blur.\n\nAUDIO:\nIf audio generation is supported, add authentic ambient Indian festival sounds:\nwomen singing traditional Bathukamma songs,\nrhythmic clapping,\nlight conversations from students,\ncrowd reactions,\nsubtle street ambience,\nand festive background atmosphere.\n\nDo NOT add dramatic movie music.\n\nIDENTITY AND CONSISTENCY:\nKeep all people visually consistent throughout the entire video.\nDo not morph faces.\nDo not create duplicate people.\nDo not change clothing between frames.\nDo not add or remove major people.\nDo not distort hands or fingers.\nDo not create extra limbs.\nDo not make people move unnaturally.\n\nThe final result should look like a real professional video recorded during an actual Bathukamma celebration outside the 10000 CODERS institute in Hyderabad.",
+        "model": "veo-3.1-fast-generate-preview",
+        "settings": {
+          "aspect_ratio": "9:16",
+          "duration": 8,
+          "quality": "ULTRA_HD",
+          "motion_strength": 6,
+          "camera_movement": "ORBIT",
+          "style": "CINEMATIC",
+          "fps": 24
+        }
+      },
+      "id": "760d67be-d8b6-4d04-80e8-87a88d674d4a",
+      "created_at": "2026-09-27T17:43:10.896Z"
+    },
+    {
+      "user_id": "00000000-0000-0000-0000-000000000001",
+      "project_id": null,
+      "type": "VIDEO",
+      "source": "GENERATED",
+      "storage_key": "b290438b-2458-44aa-b936-0e0ea2e7d58c.mp4",
+      "thumbnail_key": null,
+      "mime_type": "video/mp4",
+      "size_bytes": 1791378,
+      "duration_seconds": 5,
+      "metadata": {
+        "prompt": "Cinematic sequence, cinematic high-angle orbital drone movement with smooth 360 degree rotation, dreamy atmospheric particle drift with ambient soft wind motion\nUse the uploaded image as the exact visual reference and transform it into a highly realistic cinematic video of a Bathukamma celebration taking place outside the 10000 CODERS institute in Hyderabad, Telangana, India.\n\nIMPORTANT:\nPreserve the original building architecture, the large \"1000 CODERS\" / \"10000 CODERS\" institute banner, the surrounding buildings, street environment, decorations, Bathukamma flower arrangements, people, clothing, and overall composition. Do not redesign or replace the institute. Do not change people's faces or identities. Keep the scene visually consistent with the source image.\n\nVIDEO SCENE:\nA lively traditional Bathukamma celebration is happening outside the institute. A large group of young women approximately 21–25 years old are wearing beautiful traditional Indian outfits such as colorful sarees, lehengas, bangles, earrings, jasmine flowers in their hair, and traditional accessories.\n\nThe women are naturally performing Bathukamma celebrations around the colorful flower arrangements. They slowly walk and dance in a circular formation around the Bathukamma flowers, clapping their hands rhythmically and smiling naturally. Their sarees, dupattas, jewelry, and jasmine flowers should move naturally with their body movements and the breeze.\n\nThe Bathukamma flower stacks should remain clearly visible in the center. Flowers should gently move from the breeze, while the women interact naturally with the celebration.\n\nAround them, male students, faculty members, staff, and other institute members are gathered as spectators. Some are clapping along with the rhythm, some are smiling and talking to each other, some are recording the celebration with their smartphones, and others are simply enjoying the event.\n\nThe atmosphere should feel like a genuine college/institute cultural celebration in Hyderabad rather than a staged advertisement.\n\nCAMERA:\nStart with a realistic wide establishing shot showing the entire 10000 CODERS institute building and the celebration outside it.\n\nSlowly move the camera forward toward the Bathukamma celebration using a smooth cinematic dolly-in motion.\n\nThen gently pan across the group of women dancing around the Bathukamma flowers.\n\nInclude subtle handheld camera movement, as if the video was captured by a professional event videographer.\n\nFinish with a wider shot showing the women, boys, faculty, institute members, decorations, Bathukamma flowers, and the 10000 CODERS building together.\n\nMOTION:\nRealistic human body movement.\nNatural walking.\nNatural circular dancing.\nRhythmic hand clapping.\nNatural smiling and conversations.\nRealistic saree and hair movement.\nNatural jewelry movement.\nSubtle wind movement in flowers and decorations.\nPeople occasionally looking at each other and reacting to the celebration.\nPhones being raised naturally by people recording the event.\n\nLIGHTING:\nNatural Hyderabad outdoor lighting with warm festive illumination.\nBeautiful realistic sunlight mixed with decorative festival lights.\nNatural shadows and reflections.\nAvoid artificial CGI-looking lighting.\n\nVISUAL STYLE:\nPhotorealistic.\nUltra-realistic Indian cultural event.\nDocumentary-style event cinematography.\nNatural skin texture.\nRealistic facial expressions.\nRealistic human proportions.\nRealistic fabric physics.\nRealistic crowd movement.\nHigh-detail flowers and decorations.\nCinematic depth of field.\nNatural motion blur.\n\nAUDIO:\nIf audio generation is supported, add authentic ambient Indian festival sounds:\nwomen singing traditional Bathukamma songs,\nrhythmic clapping,\nlight conversations from students,\ncrowd reactions,\nsubtle street ambience,\nand festive background atmosphere.\n\nDo NOT add dramatic movie music.\n\nIDENTITY AND CONSISTENCY:\nKeep all people visually consistent throughout the entire video.\nDo not morph faces.\nDo not create duplicate people.\nDo not change clothing between frames.\nDo not add or remove major people.\nDo not distort hands or fingers.\nDo not create extra limbs.\nDo not make people move unnaturally.\n\nThe final result should look like a real professional video recorded during an actual Bathukamma celebration outside the 10000 CODERS institute in Hyderabad.",
+        "model": "veo-3.1-fast-generate-preview",
+        "settings": {
+          "aspect_ratio": "9:16",
+          "duration": 8,
+          "quality": "ULTRA_HD",
+          "motion_strength": 6,
+          "camera_movement": "ORBIT",
+          "style": "CINEMATIC",
+          "fps": 24
+        }
+      },
+      "id": "4e457346-99f4-46b2-b578-f12d68592d4e",
+      "created_at": "2026-09-27T17:41:52.800Z"
+    },
+    {
+      "user_id": "00000000-0000-0000-0000-000000000001",
+      "project_id": null,
+      "type": "IMAGE",
+      "source": "UPLOAD",
+      "storage_key": "badf7a54-d6fa-4208-9b30-da29c558f005.png",
+      "thumbnail_key": null,
+      "mime_type": "image/png",
+      "size_bytes": 3377459,
+      "metadata": {
+        "original_name": "ChatGPT Image Sep 27, 2026, 11_02_27 PM.png"
+      },
+      "id": "e24bc4eb-1dba-465f-9a64-d2071aff9170",
+      "created_at": "2026-09-27T17:40:59.485Z"
+    },
+    {
+      "user_id": "00000000-0000-0000-0000-000000000001",
+      "project_id": null,
+      "type": "IMAGE",
+      "source": "UPLOAD",
+      "storage_key": "25136680-c503-4b1c-a761-347021831766.png",
+      "thumbnail_key": null,
+      "mime_type": "image/png",
+      "size_bytes": 3377459,
+      "metadata": {
+        "original_name": "ChatGPT Image Sep 27, 2026, 11_02_27 PM.png"
+      },
+      "id": "749ea78b-1dff-41df-a987-c49b24d346ac",
+      "created_at": "2026-09-27T17:33:15.944Z"
+    }
+  ],
+  "generations": [
+    {
+      "user_id": "00000000-0000-0000-0000-000000000001",
+      "project_id": null,
+      "type": "TEXT_TO_VIDEO",
+      "prompt": "generate video of bathukumma festival",
+      "enhanced_prompt": "Cinematic high-angle crane shot descending into a slow orbital dolly of the vibrant Bathukamma festival at golden hour twilight. In the center, majestic, towering conical floral arrangements (Bathukamma) crafted from concentric layers of yellow marigolds, orange chrysanthemums, and pink lotuses rest on an intricately drawn white rice-flour rangoli, crowned with flickering brass oil diyas. A circle of Indian women adorned in luxurious silk sarees with shimmering gold zari borders move gracefully in synchronized rhythm, clapping and singing, their silk fabric swaying fluidly. Shot on 35mm anamorphic lens at f/1.8, creating a rich shallow depth of field with warm bokeh and subtle horizontal lens flares from the diya flames. Wisps of aromatic dhoop incense smoke curl through the evening breeze as loose flower petals drift gently across the stone courtyard. Saturated, festive color palette dominated by saffron orange, turmeric yellow, deep magenta, and emerald green, bathed in soft, warm amber ambient lighting with a filmic 24fps motion blur.",
+      "negative_prompt": null,
+      "input_asset_id": null,
+      "output_asset_id": "4107b057-d5cd-4db1-b467-c89dd1561347",
+      "provider": "google_veo_video",
+      "model": "veo-3.1-fast-generate-preview",
+      "status": "COMPLETED",
+      "settings": {
+        "aspect_ratio": "9:16",
+        "duration": 8,
+        "quality": "ULTRA_HD",
+        "motion_strength": 6,
+        "camera_movement": "ORBIT",
+        "style": "CINEMATIC",
+        "fps": 24
+      },
+      "provider_operation_id": null,
+      "error_code": null,
+      "error_message": null,
+      "id": "07bdf24f-61fd-4393-a8db-5e044546c030",
+      "created_at": "2026-09-27T17:47:17.988Z",
+      "started_at": "2026-09-27T17:47:17.992Z",
+      "completed_at": "2026-09-27T17:47:19.522Z"
+    },
+    {
+      "user_id": "00000000-0000-0000-0000-000000000001",
+      "project_id": null,
+      "type": "IMAGE_TO_VIDEO",
+      "prompt": "Use the uploaded image as the exact visual reference and transform it into a highly realistic cinematic video of a Bathukamma celebration taking place outside the 10000 CODERS institute in Hyderabad, Telangana, India.\n\nIMPORTANT:\nPreserve the original building architecture, the large \"1000 CODERS\" / \"10000 CODERS\" institute banner, the surrounding buildings, street environment, decorations, Bathukamma flower arrangements, people, clothing, and overall composition. Do not redesign or replace the institute. Do not change people's faces or identities. Keep the scene visually consistent with the source image.\n\nVIDEO SCENE:\nA lively traditional Bathukamma celebration is happening outside the institute. A large group of young women approximately 21–25 years old are wearing beautiful traditional Indian outfits such as colorful sarees, lehengas, bangles, earrings, jasmine flowers in their hair, and traditional accessories.\n\nThe women are naturally performing Bathukamma celebrations around the colorful flower arrangements. They slowly walk and dance in a circular formation around the Bathukamma flowers, clapping their hands rhythmically and smiling naturally. Their sarees, dupattas, jewelry, and jasmine flowers should move naturally with their body movements and the breeze.\n\nThe Bathukamma flower stacks should remain clearly visible in the center. Flowers should gently move from the breeze, while the women interact naturally with the celebration.\n\nAround them, male students, faculty members, staff, and other institute members are gathered as spectators. Some are clapping along with the rhythm, some are smiling and talking to each other, some are recording the celebration with their smartphones, and others are simply enjoying the event.\n\nThe atmosphere should feel like a genuine college/institute cultural celebration in Hyderabad rather than a staged advertisement.\n\nCAMERA:\nStart with a realistic wide establishing shot showing the entire 10000 CODERS institute building and the celebration outside it.\n\nSlowly move the camera forward toward the Bathukamma celebration using a smooth cinematic dolly-in motion.\n\nThen gently pan across the group of women dancing around the Bathukamma flowers.\n\nInclude subtle handheld camera movement, as if the video was captured by a professional event videographer.\n\nFinish with a wider shot showing the women, boys, faculty, institute members, decorations, Bathukamma flowers, and the 10000 CODERS building together.\n\nMOTION:\nRealistic human body movement.\nNatural walking.\nNatural circular dancing.\nRhythmic hand clapping.\nNatural smiling and conversations.\nRealistic saree and hair movement.\nNatural jewelry movement.\nSubtle wind movement in flowers and decorations.\nPeople occasionally looking at each other and reacting to the celebration.\nPhones being raised naturally by people recording the event.\n\nLIGHTING:\nNatural Hyderabad outdoor lighting with warm festive illumination.\nBeautiful realistic sunlight mixed with decorative festival lights.\nNatural shadows and reflections.\nAvoid artificial CGI-looking lighting.\n\nVISUAL STYLE:\nPhotorealistic.\nUltra-realistic Indian cultural event.\nDocumentary-style event cinematography.\nNatural skin texture.\nRealistic facial expressions.\nRealistic human proportions.\nRealistic fabric physics.\nRealistic crowd movement.\nHigh-detail flowers and decorations.\nCinematic depth of field.\nNatural motion blur.\n\nAUDIO:\nIf audio generation is supported, add authentic ambient Indian festival sounds:\nwomen singing traditional Bathukamma songs,\nrhythmic clapping,\nlight conversations from students,\ncrowd reactions,\nsubtle street ambience,\nand festive background atmosphere.\n\nDo NOT add dramatic movie music.\n\nIDENTITY AND CONSISTENCY:\nKeep all people visually consistent throughout the entire video.\nDo not morph faces.\nDo not create duplicate people.\nDo not change clothing between frames.\nDo not add or remove major people.\nDo not distort hands or fingers.\nDo not create extra limbs.\nDo not make people move unnaturally.\n\nThe final result should look like a real professional video recorded during an actual Bathukamma celebration outside the 10000 CODERS institute in Hyderabad.",
+      "enhanced_prompt": "Cinematic, photorealistic documentary-style video continuation initialized from the reference image, capturing an authentic Bathukamma festival outside the 10000 CODERS institute in Hyderabad, Telangana. Complete fidelity to the source image's building architecture, vibrant street environment, promotional banners, and individual character identities is maintained with zero facial morphing or anatomical distortion.\n\nIn the center, a circle of young Indian women in rich traditional silk sarees and lehengas gracefully dance and walk in a synchronized counter-clockwise circle around towering, multi-tiered Bathukamma flower arrangements of marigolds, chrysanthemums, and celosia. They clap their henna-adorned hands in steady, traditional rhythm, exchanging natural smiles and subtle head tilts. Around the periphery, male peers, faculty, and institute staff clap along to the beat, some capturing natural video on raised smartphones with accurate screen reflections, while others converse in candid camaraderie.\n\nCamera choreography: Captured on a 35mm anamorphic cinema lens at f/2.0 with the organic, subtle breathing of high-end handheld stabilization. The shot begins wide, establishing the full exterior of the 10000 CODERS building facade, then initiates a smooth, continuous dolly-in toward the central celebration. The camera gently tracks and arcs along the perimeter of the dancing circle, revealing the intricate textures of the floral stacks, before gracefully drawing back to a balanced wide-angle medium shot encompassing the architecture, vibrant crowd, and festive ground decorations.\n\nLighting and Color: Authentic late-afternoon Hyderabad daylight blending warm golden-hour sunbeams with ambient festive illumination. Deep warm color palette dominated by saffron, marigold yellow, emerald green, and vermillion. Accurate skin subsurface scattering, sharp textile textures, realistic specular highlights on gold jewelry and glass bangles, and shallow depth of field isolating focal dancers with natural cinematic bokeh.\n\nMotion & Physics: Ultra-realistic micro-movements and secondary dynamics; delicate dupattas and saree pleats drape and sway naturally with footwork and a soft autumn breeze; woven jasmine garlands in braided hair shift organically; loose flower petals gently flutter; crowd movements remain spontaneous and unscripted. \n\nAudio: Diegetic, atmospheric Hyderabad festival ambiance featuring synchronized rhythmic hand clapping, women harmonizing traditional Telugu Bathukamma folk melodies, soft fabric rustles, distant urban street hum, and candid laughter, captured with clean directional realism and zero synthetic score.",
+      "negative_prompt": null,
+      "input_asset_id": "e24bc4eb-1dba-465f-9a64-d2071aff9170",
+      "output_asset_id": "760d67be-d8b6-4d04-80e8-87a88d674d4a",
+      "provider": "google_veo_video",
+      "model": "veo-3.1-fast-generate-preview",
+      "status": "COMPLETED",
+      "settings": {
+        "aspect_ratio": "9:16",
+        "duration": 8,
+        "quality": "ULTRA_HD",
+        "motion_strength": 6,
+        "camera_movement": "ORBIT",
+        "style": "CINEMATIC",
+        "fps": 24
+      },
+      "provider_operation_id": null,
+      "error_code": null,
+      "error_message": null,
+      "id": "16b31e75-0dd7-4985-918f-c31832517f4b",
+      "created_at": "2026-09-27T17:43:04.668Z",
+      "started_at": "2026-09-27T17:43:04.669Z",
+      "completed_at": "2026-09-27T17:43:10.897Z"
+    },
+    {
+      "user_id": "00000000-0000-0000-0000-000000000001",
+      "project_id": null,
+      "type": "IMAGE_TO_VIDEO",
+      "prompt": "Cinematic sequence, cinematic high-angle orbital drone movement with smooth 360 degree rotation, dreamy atmospheric particle drift with ambient soft wind motion\nUse the uploaded image as the exact visual reference and transform it into a highly realistic cinematic video of a Bathukamma celebration taking place outside the 10000 CODERS institute in Hyderabad, Telangana, India.\n\nIMPORTANT:\nPreserve the original building architecture, the large \"1000 CODERS\" / \"10000 CODERS\" institute banner, the surrounding buildings, street environment, decorations, Bathukamma flower arrangements, people, clothing, and overall composition. Do not redesign or replace the institute. Do not change people's faces or identities. Keep the scene visually consistent with the source image.\n\nVIDEO SCENE:\nA lively traditional Bathukamma celebration is happening outside the institute. A large group of young women approximately 21–25 years old are wearing beautiful traditional Indian outfits such as colorful sarees, lehengas, bangles, earrings, jasmine flowers in their hair, and traditional accessories.\n\nThe women are naturally performing Bathukamma celebrations around the colorful flower arrangements. They slowly walk and dance in a circular formation around the Bathukamma flowers, clapping their hands rhythmically and smiling naturally. Their sarees, dupattas, jewelry, and jasmine flowers should move naturally with their body movements and the breeze.\n\nThe Bathukamma flower stacks should remain clearly visible in the center. Flowers should gently move from the breeze, while the women interact naturally with the celebration.\n\nAround them, male students, faculty members, staff, and other institute members are gathered as spectators. Some are clapping along with the rhythm, some are smiling and talking to each other, some are recording the celebration with their smartphones, and others are simply enjoying the event.\n\nThe atmosphere should feel like a genuine college/institute cultural celebration in Hyderabad rather than a staged advertisement.\n\nCAMERA:\nStart with a realistic wide establishing shot showing the entire 10000 CODERS institute building and the celebration outside it.\n\nSlowly move the camera forward toward the Bathukamma celebration using a smooth cinematic dolly-in motion.\n\nThen gently pan across the group of women dancing around the Bathukamma flowers.\n\nInclude subtle handheld camera movement, as if the video was captured by a professional event videographer.\n\nFinish with a wider shot showing the women, boys, faculty, institute members, decorations, Bathukamma flowers, and the 10000 CODERS building together.\n\nMOTION:\nRealistic human body movement.\nNatural walking.\nNatural circular dancing.\nRhythmic hand clapping.\nNatural smiling and conversations.\nRealistic saree and hair movement.\nNatural jewelry movement.\nSubtle wind movement in flowers and decorations.\nPeople occasionally looking at each other and reacting to the celebration.\nPhones being raised naturally by people recording the event.\n\nLIGHTING:\nNatural Hyderabad outdoor lighting with warm festive illumination.\nBeautiful realistic sunlight mixed with decorative festival lights.\nNatural shadows and reflections.\nAvoid artificial CGI-looking lighting.\n\nVISUAL STYLE:\nPhotorealistic.\nUltra-realistic Indian cultural event.\nDocumentary-style event cinematography.\nNatural skin texture.\nRealistic facial expressions.\nRealistic human proportions.\nRealistic fabric physics.\nRealistic crowd movement.\nHigh-detail flowers and decorations.\nCinematic depth of field.\nNatural motion blur.\n\nAUDIO:\nIf audio generation is supported, add authentic ambient Indian festival sounds:\nwomen singing traditional Bathukamma songs,\nrhythmic clapping,\nlight conversations from students,\ncrowd reactions,\nsubtle street ambience,\nand festive background atmosphere.\n\nDo NOT add dramatic movie music.\n\nIDENTITY AND CONSISTENCY:\nKeep all people visually consistent throughout the entire video.\nDo not morph faces.\nDo not create duplicate people.\nDo not change clothing between frames.\nDo not add or remove major people.\nDo not distort hands or fingers.\nDo not create extra limbs.\nDo not make people move unnaturally.\n\nThe final result should look like a real professional video recorded during an actual Bathukamma celebration outside the 10000 CODERS institute in Hyderabad.",
+      "enhanced_prompt": "Cinematic 8K documentary-style footage bringing the source image to life, maintaining exact architectural and facial continuity of the 10000 CODERS institute and its attendees in Hyderabad, Telangana. The shot initiates with an elegant high-angle orbital camera glide using a 35mm anamorphic prime lens at f/2.0, smoothly transitioning into a grounded, organic dolly-in tracking shot that encircles the central celebration. \n\nIn the courtyard, a vibrant circle of young Indian women dressed in rich Kanjeevaram silk sarees and lehengas in brilliant hues of turmeric yellow, vermilion red, and peacock green move in graceful, rhythmic circular choreography. They bend gently and clap in sync around the conical floral Bathukamma towers arranged on the ground. Authentic physical dynamics animate the scene: flowing pallus, delicate dupattas, and ornate gold jhumkas sway naturally with each step and turn; fragrant strands of fresh white jasmine (malli) woven into their braided hair flutter in the warm autumn breeze; loose marigold and chrysanthemum petals drift softly around the floral pyramids. \n\nSurrounding the dance, male students, staff, and faculty members in contemporary festive attire react authentically—some clapping along to the unspoken rhythm, others lifting smartphones to capture video, exchanging warm, genuine smiles with natural micro-expressions. The exterior facade of the 10000 CODERS institute, including its distinctive signage, overhead banners, and adjacent street architecture, remains razor-sharp and persistent in the background. \n\nIllumination features late-afternoon golden-hour sunlight casting long, warm shadows across the pavement, complemented by the ambient twinkle of decorative string lights hung across the building entrance. Warm volumetric dust and pollen particles catch the directional backlight, producing a dreamy, cinematic atmosphere. Natural motion blur calibrated to a 180-degree shutter, true-to-life Indian skin tones with fine pores and organic specular highlights, pristine temporal stability, zero anatomical distortion, and documentary-level realism.",
+      "negative_prompt": null,
+      "input_asset_id": "e24bc4eb-1dba-465f-9a64-d2071aff9170",
+      "output_asset_id": "4e457346-99f4-46b2-b578-f12d68592d4e",
+      "provider": "google_veo_video",
+      "model": "veo-3.1-fast-generate-preview",
+      "status": "COMPLETED",
+      "settings": {
+        "aspect_ratio": "9:16",
+        "duration": 8,
+        "quality": "ULTRA_HD",
+        "motion_strength": 6,
+        "camera_movement": "ORBIT",
+        "style": "CINEMATIC",
+        "fps": 24
+      },
+      "provider_operation_id": null,
+      "error_code": null,
+      "error_message": null,
+      "id": "3303e264-5b8d-422f-bb78-a68570f0ac82",
+      "created_at": "2026-09-27T17:41:46.518Z",
+      "started_at": "2026-09-27T17:41:46.520Z",
+      "completed_at": "2026-09-27T17:41:52.800Z"
+    },
+    {
+      "user_id": "00000000-0000-0000-0000-000000000001",
+      "project_id": null,
+      "type": "IMAGE_TO_VIDEO",
+      "prompt": "Use the uploaded image as the exact visual reference and transform it into a highly realistic cinematic video of a Bathukamma celebration taking place outside the 10000 CODERS institute in Hyderabad, Telangana, India.\n\nIMPORTANT:\nPreserve the original building architecture, the large \"1000 CODERS\" / \"10000 CODERS\" institute banner, the surrounding buildings, street environment, decorations, Bathukamma flower arrangements, people, clothing, and overall composition. Do not redesign or replace the institute. Do not change people's faces or identities. Keep the scene visually consistent with the source image.\n\nVIDEO SCENE:\nA lively traditional Bathukamma celebration is happening outside the institute. A large group of young women approximately 21–25 years old are wearing beautiful traditional Indian outfits such as colorful sarees, lehengas, bangles, earrings, jasmine flowers in their hair, and traditional accessories.\n\nThe women are naturally performing Bathukamma celebrations around the colorful flower arrangements. They slowly walk and dance in a circular formation around the Bathukamma flowers, clapping their hands rhythmically and smiling naturally. Their sarees, dupattas, jewelry, and jasmine flowers should move naturally with their body movements and the breeze.\n\nThe Bathukamma flower stacks should remain clearly visible in the center. Flowers should gently move from the breeze, while the women interact naturally with the celebration.\n\nAround them, male students, faculty members, staff, and other institute members are gathered as spectators. Some are clapping along with the rhythm, some are smiling and talking to each other, some are recording the celebration with their smartphones, and others are simply enjoying the event.\n\nThe atmosphere should feel like a genuine college/institute cultural celebration in Hyderabad rather than a staged advertisement.\n\nCAMERA:\nStart with a realistic wide establishing shot showing the entire 10000 CODERS institute building and the celebration outside it.\n\nSlowly move the camera forward toward the Bathukamma celebration using a smooth cinematic dolly-in motion.\n\nThen gently pan across the group of women dancing around the Bathukamma flowers.\n\nInclude subtle handheld camera movement, as if the video was captured by a professional event videographer.\n\nFinish with a wider shot showing the women, boys, faculty, institute members, decorations, Bathukamma flowers, and the 10000 CODERS building together.\n\nMOTION:\nRealistic human body movement.\nNatural walking.\nNatural circular dancing.\nRhythmic hand clapping.\nNatural smiling and conversations.\nRealistic saree and hair movement.\nNatural jewelry movement.\nSubtle wind movement in flowers and decorations.\nPeople occasionally looking at each other and reacting to the celebration.\nPhones being raised naturally by people recording the event.\n\nLIGHTING:\nNatural Hyderabad outdoor lighting with warm festive illumination.\nBeautiful realistic sunlight mixed with decorative festival lights.\nNatural shadows and reflections.\nAvoid artificial CGI-looking lighting.\n\nVISUAL STYLE:\nPhotorealistic.\nUltra-realistic Indian cultural event.\nDocumentary-style event cinematography.\nNatural skin texture.\nRealistic facial expressions.\nRealistic human proportions.\nRealistic fabric physics.\nRealistic crowd movement.\nHigh-detail flowers and decorations.\nCinematic depth of field.\nNatural motion blur.\n\nAUDIO:\nIf audio generation is supported, add authentic ambient Indian festival sounds:\nwomen singing traditional Bathukamma songs,\nrhythmic clapping,\nlight conversations from students,\ncrowd reactions,\nsubtle street ambience,\nand festive background atmosphere.\n\nDo NOT add dramatic movie music.\n\nIDENTITY AND CONSISTENCY:\nKeep all people visually consistent throughout the entire video.\nDo not morph faces.\nDo not create duplicate people.\nDo not change clothing between frames.\nDo not add or remove major people.\nDo not distort hands or fingers.\nDo not create extra limbs.\nDo not make people move unnaturally.\n\nThe final result should look like a real professional video recorded during an actual Bathukamma celebration outside the 10000 CODERS institute in Hyderabad.",
+      "enhanced_prompt": "Cinematic documentary dolly-in capturing the authentic Bathukamma celebration outside 10000 CODERS. Women in iridescent silk sarees dance rhythmically in a circle around vibrant marigold towers under warm golden-hour sunlight. Onlookers smile and record naturally. Smooth panning, fluttering fabrics, tactile petal textures, and gentle handheld motion create a photorealistic Hyderabad festival atmosphere with perfectly preserved architecture.",
+      "negative_prompt": null,
+      "input_asset_id": "749ea78b-1dff-41df-a987-c49b24d346ac",
+      "output_asset_id": null,
+      "provider": "google_veo_video",
+      "model": "veo-3.1-fast-generate-preview",
+      "status": "FAILED",
+      "settings": {
+        "aspect_ratio": "9:16",
+        "duration": 8,
+        "quality": "ULTRA_HD",
+        "motion_strength": 6,
+        "camera_movement": "ORBIT",
+        "style": "CINEMATIC",
+        "fps": 24
+      },
+      "provider_operation_id": null,
+      "error_code": "PROVIDER_RATE_LIMITED",
+      "error_message": "{\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]}]}}",
+      "id": "af0cbba5-cbc9-42e6-81db-287861607703",
+      "created_at": "2026-09-27T17:34:42.536Z",
+      "started_at": "2026-09-27T17:34:42.538Z",
+      "completed_at": "2026-09-27T17:34:42.902Z"
+    }
+  ],
+  "generation_jobs": [
+    {
+      "id": "c911b159-5f5b-434f-8db1-43589591c0eb",
+      "generation_id": "af0cbba5-cbc9-42e6-81db-287861607703",
+      "status": "QUEUED",
+      "attempts": 0,
+      "worker_id": null,
+      "last_error": null,
+      "queued_at": "2026-09-27T17:34:42.536Z",
+      "started_at": null,
+      "completed_at": null
+    },
+    {
+      "id": "2cbd96f1-f3ee-4052-b3eb-261f64f6124e",
+      "generation_id": "3303e264-5b8d-422f-bb78-a68570f0ac82",
+      "status": "QUEUED",
+      "attempts": 0,
+      "worker_id": null,
+      "last_error": null,
+      "queued_at": "2026-09-27T17:41:46.518Z",
+      "started_at": null,
+      "completed_at": null
+    },
+    {
+      "id": "caaa4177-5512-4384-a3cc-4926d449d29a",
+      "generation_id": "16b31e75-0dd7-4985-918f-c31832517f4b",
+      "status": "QUEUED",
+      "attempts": 0,
+      "worker_id": null,
+      "last_error": null,
+      "queued_at": "2026-09-27T17:43:04.668Z",
+      "started_at": null,
+      "completed_at": null
+    },
+    {
+      "id": "a3c86bf6-ca09-4f09-b01f-f624ec38a89d",
+      "generation_id": "07bdf24f-61fd-4393-a8db-5e044546c030",
+      "status": "QUEUED",
+      "attempts": 0,
+      "worker_id": null,
+      "last_error": null,
+      "queued_at": "2026-09-27T17:47:17.988Z",
+      "started_at": null,
+      "completed_at": null
+    }
+  ],
+  "provider_models": [
+    {
+      "id": "925f3793-da0a-494d-8294-f003ff50bc3d",
+      "provider": "google_gemini_image",
+      "model": "gemini-3.1-flash-image",
+      "capability": "IMAGE_SYNTHESIS",
+      "enabled": true,
+      "metadata": {
+        "resolutions": [
+          "512px",
+          "1K",
+          "2K",
+          "4K"
+        ]
+      },
+      "created_at": "2026-09-27T15:56:45.339Z"
+    },
+    {
+      "id": "232348ed-860d-4b1a-afbb-e1277b05e1b2",
+      "provider": "google_gemini_image",
+      "model": "gemini-3.1-flash-lite-image",
+      "capability": "FAST_IMAGE_SYNTHESIS",
+      "enabled": true,
+      "metadata": {},
+      "created_at": "2026-09-27T15:56:45.339Z"
+    },
+    {
+      "id": "6e27028a-e0a6-4a42-829b-45f1b4ede2d8",
+      "provider": "google_veo_video",
+      "model": "veo-3.1-lite-generate-preview",
+      "capability": "VIDEO_SYNTHESIS",
+      "enabled": true,
+      "metadata": {
+        "resolutions": [
+          "720p"
+        ]
+      },
+      "created_at": "2026-09-27T15:56:45.339Z"
+    }
+  ],
+  "usage_records": [
+    {
+      "user_id": "00000000-0000-0000-0000-000000000001",
+      "generation_id": "3303e264-5b8d-422f-bb78-a68570f0ac82",
+      "provider": "google_veo_video",
+      "model": "veo-3.1-fast-generate-preview",
+      "processing_time_ms": 2500,
+      "input_units": 1,
+      "output_units": 1,
+      "id": "3b1a9691-19c6-40c5-8bcf-191e7bed7af0",
+      "created_at": "2026-09-27T17:41:52.800Z"
+    },
+    {
+      "user_id": "00000000-0000-0000-0000-000000000001",
+      "generation_id": "16b31e75-0dd7-4985-918f-c31832517f4b",
+      "provider": "google_veo_video",
+      "model": "veo-3.1-fast-generate-preview",
+      "processing_time_ms": 2500,
+      "input_units": 1,
+      "output_units": 1,
+      "id": "6fbc68bb-9e5e-4c4d-be5a-2cb8fe0966f2",
+      "created_at": "2026-09-27T17:43:10.897Z"
+    },
+    {
+      "user_id": "00000000-0000-0000-0000-000000000001",
+      "generation_id": "07bdf24f-61fd-4393-a8db-5e044546c030",
+      "provider": "google_veo_video",
+      "model": "veo-3.1-fast-generate-preview",
+      "processing_time_ms": 2500,
+      "input_units": 1,
+      "output_units": 1,
+      "id": "dcb129f9-d098-451e-9162-933e6b292af4",
+      "created_at": "2026-09-27T17:47:19.523Z"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "aa11107d-9366-44db-9801-bc778ac77138",
+      "user_id": "00000000-0000-0000-0000-000000000001",
+      "title": "New Creative Chat",
+      "model": "gemini-3.8-flash",
+      "web_search_enabled": false,
+      "created_at": "2026-09-27T16:18:17.783Z",
+      "updated_at": "2026-09-27T18:05:11.206Z"
+    },
+    {
+      "id": "eea903d5-cb5b-418f-82da-6a09a62dc477",
+      "user_id": "00000000-0000-0000-0000-000000000001",
+      "title": "New Creative Chat",
+      "model": "gemini-3.8-flash",
+      "web_search_enabled": false,
+      "created_at": "2026-09-27T16:18:17.714Z",
+      "updated_at": "2026-09-27T16:18:17.714Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "cbc66880-b024-4cbd-af18-82bf20c0bd94",
+      "conversation_id": "aa11107d-9366-44db-9801-bc778ac77138",
+      "role": "user",
+      "content": "hi",
+      "created_at": "2026-09-27T16:18:20.212Z"
+    },
+    {
+      "id": "1aed0819-9e05-4e53-ad2b-2fc687e1f6cd",
+      "conversation_id": "aa11107d-9366-44db-9801-bc778ac77138",
+      "role": "user",
+      "content": "hi",
+      "created_at": "2026-09-27T16:21:11.832Z"
+    },
+    {
+      "id": "8a60fa69-f124-402a-97eb-187c6903ae85",
+      "conversation_id": "aa11107d-9366-44db-9801-bc778ac77138",
+      "role": "user",
+      "content": "hi",
+      "created_at": "2026-09-27T16:21:19.114Z"
+    },
+    {
+      "id": "91e7b518-4554-4ad8-a29a-eaad1cced9f8",
+      "conversation_id": "aa11107d-9366-44db-9801-bc778ac77138",
+      "role": "user",
+      "content": "hi",
+      "created_at": "2026-09-27T16:21:44.606Z"
+    },
+    {
+      "id": "3913e4c2-ee0a-419e-9f18-ca2f34a2865d",
+      "conversation_id": "aa11107d-9366-44db-9801-bc778ac77138",
+      "role": "user",
+      "content": "hi",
+      "created_at": "2026-09-27T16:25:04.436Z"
+    },
+    {
+      "id": "144ac3a8-4c2d-47cf-af7d-c9df7e5892be",
+      "conversation_id": "aa11107d-9366-44db-9801-bc778ac77138",
+      "role": "user",
+      "content": "hi",
+      "created_at": "2026-09-27T17:24:55.004Z"
+    },
+    {
+      "id": "d2841beb-49ff-4053-97a6-310f0b3c6597",
+      "conversation_id": "aa11107d-9366-44db-9801-bc778ac77138",
+      "role": "user",
+      "content": "hi",
+      "created_at": "2026-09-27T17:44:49.239Z"
+    },
+    {
+      "id": "be9982bf-c3de-4b8e-b550-1e5dd4daa568",
+      "conversation_id": "aa11107d-9366-44db-9801-bc778ac77138",
+      "role": "assistant",
+      "content": "Hello! Welcome to the studio. \n\nI’m **VELORA**, your Creative Director and Studio Intelligence Assistant. Whether you're looking to:\n\n* **Direct a Visual Project:** Concept art, moodboards, color grading, or cinematic staging.\n* **Craft Prompts:** High-fidelity prompts for Midjourney, Stable Diffusion, or video models (Runway, Sora, Kling).\n* **Scout & Analyze Locations:** Architectural insights, real-world filming backdrops, and geographic scouting.\n* **Explore Creative Tech:** Workflows, rendering pipelines, or the latest generative tools.\n\nWhat are we creating or exploring today?",
+      "created_at": "2026-09-27T17:44:51.968Z"
+    },
+    {
+      "id": "2af6c7a7-6262-4281-8fd7-1cc724d6224a",
+      "conversation_id": "aa11107d-9366-44db-9801-bc778ac77138",
+      "role": "user",
+      "content": "explain python in 10 bullet points",
+      "created_at": "2026-09-27T17:45:16.135Z"
+    },
+    {
+      "id": "b3d9c4b6-249e-468a-9cac-9f605ba782b2",
+      "conversation_id": "aa11107d-9366-44db-9801-bc778ac77138",
+      "role": "user",
+      "content": "explain python in 10 bullet points",
+      "created_at": "2026-09-27T18:03:23.314Z"
+    },
+    {
+      "id": "1b8d0aa5-254c-45a7-90fc-7f5059c9cd4b",
+      "conversation_id": "aa11107d-9366-44db-9801-bc778ac77138",
+      "role": "user",
+      "content": "hi",
+      "created_at": "2026-09-27T18:04:02.575Z"
+    },
+    {
+      "id": "02aa9489-fe58-4747-976e-05613eec06dc",
+      "conversation_id": "aa11107d-9366-44db-9801-bc778ac77138",
+      "role": "user",
+      "content": "hi",
+      "created_at": "2026-09-27T18:04:14.758Z"
+    },
+    {
+      "id": "d6114774-fe29-4b98-b5a6-49b8f05b1525",
+      "conversation_id": "aa11107d-9366-44db-9801-bc778ac77138",
+      "role": "user",
+      "content": "python",
+      "created_at": "2026-09-27T18:05:11.206Z"
+    }
+  ],
+  "sessions": []
+}

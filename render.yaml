@@ -1,0 +1,93 @@
+services:
+  # ========================================================
+  # 1. VELORA AI — Primary Web & API Service
+  # ========================================================
+  - type: web
+    name: velora-ai-studio
+    runtime: node
+    plan: starter
+    region: oregon
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: DATABASE_URL
+        fromDatabase:
+          name: velora-postgres
+          property: connectionString
+      - key: REDIS_URL
+        fromService:
+          type: redis
+          name: velora-redis
+          property: connectionString
+      - key: STORAGE_PROVIDER
+        value: local
+      # AI Provider Secrets (Configured via Render Environment Dashboard)
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: GROQ_API_KEY
+        sync: false
+      - key: DEEPSEEK_API_KEY
+        sync: false
+      - key: HF_TOKEN
+        sync: false
+      - key: FAL_KEY
+        sync: false
+      - key: XAI_API_KEY
+        sync: false
+      - key: FLUX_API_KEY
+        sync: false
+      - key: SD_API_KEY
+        sync: false
+
+  # ========================================================
+  # 2. VELORA AI — Background Async Generation Worker
+  # ========================================================
+  - type: worker
+    name: velora-ai-worker
+    runtime: node
+    plan: starter
+    region: oregon
+    buildCommand: npm install
+    startCommand: npx tsx src/server/worker.ts
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: DATABASE_URL
+        fromDatabase:
+          name: velora-postgres
+          property: connectionString
+      - key: REDIS_URL
+        fromService:
+          type: redis
+          name: velora-redis
+          property: connectionString
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: FLUX_API_KEY
+        sync: false
+      - key: SD_API_KEY
+        sync: false
+
+# ========================================================
+# 3. Production PostgreSQL Database
+# ========================================================
+databases:
+  - name: velora-postgres
+    plan: starter
+    region: oregon
+    databaseName: velora_db
+    user: velora_admin
+
+# ========================================================
+# 4. Production Redis Key-Value Store
+# ========================================================
+# Note: Render Redis service can be provisioned as a private service

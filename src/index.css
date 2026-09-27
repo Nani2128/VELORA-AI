@@ -1,0 +1,128 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Syne", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  --color-accent-amber: #F59E0B;
+  --color-accent-gold: #E5A93C;
+  --color-accent-violet: #8B5CF6;
+  --color-accent-cyan: #06B6D4;
+}
+
+:root {
+  /* Default: White-first Light Theme */
+  --bg-canvas: #FAFAFB;
+  --bg-sidebar: #F4F4F7;
+  --bg-surface: #FFFFFF;
+  --bg-surface-elevated: #F1F2F5;
+  --bg-surface-overlay: #E4E5EB;
+  --bg-surface-highlight: #D8DAE2;
+  --border-subtle: rgba(15, 23, 42, 0.08);
+  --border-strong: rgba(15, 23, 42, 0.16);
+  --text-primary: #0F172A;
+  --text-secondary: #475569;
+  --text-muted: #64748B;
+  --color-scheme: light;
+}
+
+html.dark, [data-theme="dark"] {
+  /* Dark Theme */
+  --bg-canvas: #090A0F;
+  --bg-sidebar: #0A0C13;
+  --bg-surface: #10121A;
+  --bg-surface-elevated: #161924;
+  --bg-surface-overlay: #1E2230;
+  --bg-surface-highlight: #2A3042;
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --border-strong: rgba(255, 255, 255, 0.16);
+  --text-primary: #F8FAFC;
+  --text-secondary: #94A3B8;
+  --text-muted: #64748B;
+  --color-scheme: dark;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    color-scheme: var(--color-scheme);
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--bg-canvas);
+    color: var(--text-primary);
+    overflow-x: hidden;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgba(120, 120, 120, 0.2);
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(120, 120, 120, 0.35);
+  }
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-mono-numbers {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Adaptive Theme Glass & Surfaces */
+.glass-panel {
+  background-color: var(--bg-surface);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--border-subtle);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.04), 0 1px 2px -1px rgba(0, 0, 0, 0.04);
+}
+
+.glass-panel-elevated {
+  background-color: var(--bg-surface-elevated);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--border-strong);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.06), 0 2px 4px -2px rgba(0, 0, 0, 0.06);
+}
+
+.glass-pill {
+  background-color: var(--bg-surface-elevated);
+  backdrop-filter: blur(8px);
+  border: 1px solid var(--border-subtle);
+}
+
+/* Shimmer animation for loading states */
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.animate-shimmer {
+  background: linear-gradient(
+    90deg,
+    rgba(120, 120, 120, 0.04) 0%,
+    rgba(120, 120, 120, 0.12) 50%,
+    rgba(120, 120, 120, 0.04) 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite linear;
+}

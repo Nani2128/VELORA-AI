@@ -1,0 +1,11 @@
+{
+  "name": "Remix VELORA AI",
+  "description": "Production-grade AI Image \u0026 Video Creation Studio with cinematic motion and intuitive workspace.",
+  "requestFramePermissions": [
+    "microphone",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
